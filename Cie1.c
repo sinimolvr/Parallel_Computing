@@ -10,7 +10,6 @@ int isPrime(int num) {
         if (num % i == 0) return 0;
     return 1;
 }
-
 int main() {
     int n = 20;
     int serialCount = 0, parallelCount = 0;
